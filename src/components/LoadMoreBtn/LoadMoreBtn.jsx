@@ -23,7 +23,7 @@ function LoadMoreBtn() {
       }
       const data = await response.json();
       console.log(data.products);
-      setProducts(data.products);
+      setProducts((prevData) => [...prevData, ...data.products]);
       setLoading(false);
     } catch (err) {
       console.log(err);
@@ -31,11 +31,17 @@ function LoadMoreBtn() {
     }
   };
   useEffect(() => {
-    if (counter === 4) {
+    if (products === 100) {
       setDisableBtn(true);
     }
     fetchData();
   }, [counter]);
+
+  useEffect(() => {
+    if (products.length === 100) {
+      setDisableBtn(true);
+    }
+  }, [products]);
 
   if (loading) {
     return <div>loading..!please wait.</div>;
@@ -57,9 +63,14 @@ function LoadMoreBtn() {
           );
         })}
       </div>
-      <button disabled={disableBtn} onClick={loadMore}>
-        Load More
-      </button>
+
+      {disableBtn ? (
+        <h1 style={{ color: "red" }}>you are reach the limit: 100 products </h1>
+      ) : (
+        <button disabled={disableBtn} onClick={loadMore}>
+          Load More
+        </button>
+      )}
     </div>
   );
 }

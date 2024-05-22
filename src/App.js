@@ -8,15 +8,15 @@ import RatingBar from "./components/ratingBar/RatingBar";
 function App() {
   return (
     <div className="App">
-      {/*       <Accordion />
+      {/*   <Accordion />
       <GenColor />
       <RatingBar />
       <ImageSlider
         url={"https://picsum.photos/v2/list"}
         page={"3"}
         limit={"5"}
-      />
-      <LoadMoreBtn /> */}
+      /> */}
+      <LoadMoreBtn />
     </div>
   );
 }
