@@ -4,6 +4,8 @@ import GenColor from "./components/ColorGenerator/GenColor";
 import ImageSlider from "./components/imageSlider/ImageSlider";
 import LoadMoreBtn from "./components/LoadMoreBtn/LoadMoreBtn";
 import RatingBar from "./components/ratingBar/RatingBar";
+import TreeView from "./components/TreeView/TreeView";
+import menus from "./components/TreeView/data";
 
 function App() {
   return (
@@ -15,8 +17,9 @@ function App() {
         url={"https://picsum.photos/v2/list"}
         page={"3"}
         limit={"5"}
-      /> */}
-      <LoadMoreBtn />
+      />
+      <LoadMoreBtn /> */}
+      <TreeView menu={menus} />
     </div>
   );
 }

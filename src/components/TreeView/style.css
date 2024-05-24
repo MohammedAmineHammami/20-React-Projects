@@ -1,0 +1,17 @@
+.parentLabel{
+    display: flex;
+    gap: 10px;
+}
+
+.sign{
+    margin-top: 23.5px;
+}
+.treeViewContenair{
+    background-color: darkcyan;
+    color: rgb(255, 255, 255);
+    width:280px;
+    display: flex;
+    height: 100vh;
+    
+   
+}
