@@ -7,21 +7,23 @@ import RatingBar from "./components/ratingBar/RatingBar";
 import TreeView from "./components/TreeView/TreeView";
 import menus from "./components/TreeView/data";
 import ReactQrCode from "./components/react-qr-code/React-qr-code";
+import Theme from "./components/ThemeChange/Theme";
 
 function App() {
   return (
     <div className="App">
-      {/*  <Accordion />
-      <GenColor />
-      <RatingBar />
-      <ImageSlider
+      {/*  <Accordion /> */}
+      {/* <GenColor /> */}
+      {/* <RatingBar /> */}
+      {/*   <ImageSlider
         url={"https://picsum.photos/v2/list"}
         page={"3"}
         limit={"5"}
-      />
-      <LoadMoreBtn />
-      <TreeView menu={menus} /> */}
-      <ReactQrCode />
+      /> */}
+      {/*  <LoadMoreBtn /> */}
+      {/* <TreeView menu={menus} /> */}
+      {/*  <ReactQrCode /> */}
+      <Theme />
     </div>
   );
 }

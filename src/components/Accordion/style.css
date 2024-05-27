@@ -21,7 +21,9 @@
 
 .question{
     display: flex;
-    justify-content: space-evenly;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn{
