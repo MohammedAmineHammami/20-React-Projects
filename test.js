@@ -1,3 +1,3 @@
-const obj = {};
-const toggel = { ...obj, ["name"]: !obj["name"] };
-console.log(toggel.name);
+let input = "";
+
+console.log(input.trim());

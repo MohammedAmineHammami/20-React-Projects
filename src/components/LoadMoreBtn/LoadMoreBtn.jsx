@@ -67,7 +67,11 @@ function LoadMoreBtn() {
       {disableBtn ? (
         <h1 style={{ color: "red" }}>you are reach the limit: 100 products </h1>
       ) : (
-        <button disabled={disableBtn} onClick={loadMore}>
+        <button
+          className="loadMoreBtn"
+          disabled={disableBtn}
+          onClick={loadMore}
+        >
           Load More
         </button>
       )}

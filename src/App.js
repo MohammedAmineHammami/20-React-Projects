@@ -6,11 +6,12 @@ import LoadMoreBtn from "./components/LoadMoreBtn/LoadMoreBtn";
 import RatingBar from "./components/ratingBar/RatingBar";
 import TreeView from "./components/TreeView/TreeView";
 import menus from "./components/TreeView/data";
+import ReactQrCode from "./components/react-qr-code/React-qr-code";
 
 function App() {
   return (
     <div className="App">
-      {/*   <Accordion />
+      {/*  <Accordion />
       <GenColor />
       <RatingBar />
       <ImageSlider
@@ -18,8 +19,9 @@ function App() {
         page={"3"}
         limit={"5"}
       />
-      <LoadMoreBtn /> */}
-      <TreeView menu={menus} />
+      <LoadMoreBtn />
+      <TreeView menu={menus} /> */}
+      <ReactQrCode />
     </div>
   );
 }
