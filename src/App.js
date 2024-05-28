@@ -11,6 +11,7 @@ import Theme from "./components/ThemeChange/Theme";
 import ScrollIndicator from "./components/ScrolleIndicator";
 import CustomTabs from "./components/CustomTabs/CustomTabs";
 import tabs from "./components/CustomTabs/data.js";
+import ModelTest from "./components/PopUp/ModelTest.jsx";
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
       {/*  <ReactQrCode /> */}
       {/* <Theme /> */}
       {/*  <ScrollIndicator url={"https://dummyjson.com/products"} limit={"100"} /> */}
-      <CustomTabs tabs={tabs} />
+      {/* <CustomTabs tabs={tabs} /> */}
+      <ModelTest />
     </div>
   );
 }

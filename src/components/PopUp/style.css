@@ -1,0 +1,74 @@
+
+.model{
+    width: 600px;
+    height: 350px;
+    background-color: rgb(231, 150, 1);
+    position: fixed;
+    left: 35vw;
+    animation-name: popUpAnimation;
+    animation-duration: 0.5s;
+    top:100px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 1px 1px 10px rgb(62, 62, 62);  
+}
+
+@keyframes popUpAnimation{
+    0%{
+        top:-200px;
+        opacity: 0;
+    }
+    100%{
+        top:100px;
+        opacity: 1;
+    }
+}
+
+.modelHeader{
+    background-color: brown;
+    color: white;
+    display: flex;
+    justify-content: center;
+ 
+    
+}
+
+.x{
+position: absolute;
+right: 20px;
+top: 10px;
+}
+
+.x:hover{
+    transform: scale(1.3);
+    box-shadow: 1px 1px 5px yellow;
+}
+
+.footer{
+    position: absolute;
+    background-color: brown;
+    color: white;
+    width: 100%;
+    bottom: 0px;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body{
+    margin-top: 100px;
+    color: white;
+}
+
+.popUpBtn{
+    margin-top: 50px;
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    box-shadow: -0.5px -0.5px 10px rgb(255, 38, 0) ;
+}
