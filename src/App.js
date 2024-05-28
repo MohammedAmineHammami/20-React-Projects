@@ -9,6 +9,8 @@ import menus from "./components/TreeView/data";
 import ReactQrCode from "./components/react-qr-code/React-qr-code";
 import Theme from "./components/ThemeChange/Theme";
 import ScrollIndicator from "./components/ScrolleIndicator";
+import CustomTabs from "./components/CustomTabs/CustomTabs";
+import tabs from "./components/CustomTabs/data.js";
 
 function App() {
   return (
@@ -25,7 +27,8 @@ function App() {
       {/* <TreeView menu={menus} /> */}
       {/*  <ReactQrCode /> */}
       {/* <Theme /> */}
-      <ScrollIndicator url={"https://dummyjson.com/products"} limit={"100"} />
+      {/*  <ScrollIndicator url={"https://dummyjson.com/products"} limit={"100"} /> */}
+      <CustomTabs tabs={tabs} />
     </div>
   );
 }

@@ -1,0 +1,15 @@
+.tabs{
+    display: flex;
+    justify-content: center;
+}
+
+.activeTab{
+    background-color: rgb(240, 184, 1);
+    color: white;
+    width: 100px;
+}
+.inactiveTab{
+    background-color: brown;
+    color: white;
+    width: 100px;
+}
