@@ -12,6 +12,7 @@ import ScrollIndicator from "./components/ScrolleIndicator";
 import CustomTabs from "./components/CustomTabs/CustomTabs";
 import tabs from "./components/CustomTabs/data.js";
 import ModelTest from "./components/PopUp/ModelTest.jsx";
+import GithubProfile from "./components/GithubProfileFinder/GithubProfile.jsx";
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
       {/* <Theme /> */}
       {/*  <ScrollIndicator url={"https://dummyjson.com/products"} limit={"100"} /> */}
       {/* <CustomTabs tabs={tabs} /> */}
-      <ModelTest />
+      {/*  <ModelTest /> */}
+      <GithubProfile />
     </div>
   );
 }
