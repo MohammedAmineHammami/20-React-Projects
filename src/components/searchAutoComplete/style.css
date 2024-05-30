@@ -1,0 +1,19 @@
+.li{
+   list-style-type: none ;
+}
+.listItems{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    overflow-y: auto;
+    margin-top: 10px;
+    width: 180px;
+    padding-top: 10px;
+}
+.globalContenair{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

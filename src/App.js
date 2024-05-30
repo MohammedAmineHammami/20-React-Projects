@@ -13,6 +13,7 @@ import CustomTabs from "./components/CustomTabs/CustomTabs";
 import tabs from "./components/CustomTabs/data.js";
 import ModelTest from "./components/PopUp/ModelTest.jsx";
 import GithubProfile from "./components/GithubProfileFinder/GithubProfile.jsx";
+import SearchAutoComp from "./components/searchAutoComplete/SearchAutoComp.jsx";
 
 function App() {
   return (
@@ -32,7 +33,8 @@ function App() {
       {/*  <ScrollIndicator url={"https://dummyjson.com/products"} limit={"100"} /> */}
       {/* <CustomTabs tabs={tabs} /> */}
       {/*  <ModelTest /> */}
-      <GithubProfile />
+      {/*  <GithubProfile /> */}
+      <SearchAutoComp url={"https://dummyjson.com/users"} />
     </div>
   );
 }
