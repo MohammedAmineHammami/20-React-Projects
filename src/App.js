@@ -14,6 +14,7 @@ import tabs from "./components/CustomTabs/data.js";
 import ModelTest from "./components/PopUp/ModelTest.jsx";
 import GithubProfile from "./components/GithubProfileFinder/GithubProfile.jsx";
 import SearchAutoComp from "./components/searchAutoComplete/SearchAutoComp.jsx";
+import TikTakToy from "./components/Tic-Tac-Toy/TikTakToy.jsx";
 
 function App() {
   return (
@@ -34,7 +35,8 @@ function App() {
       {/* <CustomTabs tabs={tabs} /> */}
       {/*  <ModelTest /> */}
       {/*  <GithubProfile /> */}
-      <SearchAutoComp url={"https://dummyjson.com/users"} />
+      {/* <SearchAutoComp url={"https://dummyjson.com/users"} /> */}
+      <TikTakToy />
     </div>
   );
 }

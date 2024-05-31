@@ -1,0 +1,35 @@
+.ticTacToeContenair{
+    box-shadow: 1px 1px 10px gray;
+     width: 300px;
+     margin-top: 50px;
+     margin-left: 200px;
+}
+
+.ticTacToyRow{
+    display: flex;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    border: 2px solid white;
+
+}
+
+.square:hover{
+    transform: scale(1.01);
+    box-shadow: 1px 1px 10px rgba(247, 175, 42, 0.75);
+}
+
+.restartBtn{
+  
+    background-color: black;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.restartBtn:hover{
+    transform: scale(1.01);
+}
