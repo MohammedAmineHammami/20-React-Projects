@@ -15,12 +15,13 @@ import ModelTest from "./components/PopUp/ModelTest.jsx";
 import GithubProfile from "./components/GithubProfileFinder/GithubProfile.jsx";
 import SearchAutoComp from "./components/searchAutoComplete/SearchAutoComp.jsx";
 import TikTakToy from "./components/Tic-Tac-Toy/TikTakToy.jsx";
+import UseFetchHook from "./components/UseFetchHook/UseFetchHook.jsx";
 
 function App() {
   return (
     <div className="App">
       {/*  <Accordion /> */}
-      {/* <GenColor /> */}
+      {/*  <GenColor /> */}
       {/* <RatingBar /> */}
       {/*   <ImageSlider
         url={"https://picsum.photos/v2/list"}
@@ -36,7 +37,8 @@ function App() {
       {/*  <ModelTest /> */}
       {/*  <GithubProfile /> */}
       {/* <SearchAutoComp url={"https://dummyjson.com/users"} /> */}
-      <TikTakToy />
+      {/*    <TikTakToy /> */}
+      <UseFetchHook />
     </div>
   );
 }
