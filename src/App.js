@@ -17,6 +17,7 @@ import SearchAutoComp from "./components/searchAutoComplete/SearchAutoComp.jsx";
 import TikTakToy from "./components/Tic-Tac-Toy/TikTakToy.jsx";
 import UseFetchHook from "./components/UseFetchHook/UseFetchHook.jsx";
 import ClickOutSideHook from "./components/ClickOutSideHook/ClickOutSideHook.jsx";
+import Resize from "./components/UseResizeHook/Resize.jsx";
 
 function App() {
   return (
@@ -40,7 +41,8 @@ function App() {
       {/* <SearchAutoComp url={"https://dummyjson.com/users"} /> */}
       {/*    <TikTakToy /> */}
       {/*  <UseFetchHook /> */}
-      <ClickOutSideHook />
+      {/*  <ClickOutSideHook /> */}
+      <Resize />
     </div>
   );
 }
