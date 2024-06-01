@@ -1,5 +1,6 @@
 import React from "react";
 import useResizeHook from "./useResizeHook";
+import CustomHook from "../UseFetchHook/CustomHook";
 
 function Resize() {
   const { width, height } = useResizeHook();

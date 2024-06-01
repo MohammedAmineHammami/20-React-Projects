@@ -18,6 +18,8 @@ import TikTakToy from "./components/Tic-Tac-Toy/TikTakToy.jsx";
 import UseFetchHook from "./components/UseFetchHook/UseFetchHook.jsx";
 import ClickOutSideHook from "./components/ClickOutSideHook/ClickOutSideHook.jsx";
 import Resize from "./components/UseResizeHook/Resize.jsx";
+import ScrolleTopBottom from "./components/Scrolle/ScrolleTopBottom.jsx";
+import ScrollToSection from "./components/Scrolle/ScrollToSection.jsx";
 
 function App() {
   return (
@@ -42,7 +44,9 @@ function App() {
       {/*    <TikTakToy /> */}
       {/*  <UseFetchHook /> */}
       {/*  <ClickOutSideHook /> */}
-      <Resize />
+      {/* <Resize /> */}
+      {/*  <ScrolleTopBottom /> */}
+      <ScrollToSection />
     </div>
   );
 }
