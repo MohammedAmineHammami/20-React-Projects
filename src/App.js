@@ -16,6 +16,7 @@ import GithubProfile from "./components/GithubProfileFinder/GithubProfile.jsx";
 import SearchAutoComp from "./components/searchAutoComplete/SearchAutoComp.jsx";
 import TikTakToy from "./components/Tic-Tac-Toy/TikTakToy.jsx";
 import UseFetchHook from "./components/UseFetchHook/UseFetchHook.jsx";
+import ClickOutSideHook from "./components/ClickOutSideHook/ClickOutSideHook.jsx";
 
 function App() {
   return (
@@ -38,7 +39,8 @@ function App() {
       {/*  <GithubProfile /> */}
       {/* <SearchAutoComp url={"https://dummyjson.com/users"} /> */}
       {/*    <TikTakToy /> */}
-      <UseFetchHook />
+      {/*  <UseFetchHook /> */}
+      <ClickOutSideHook />
     </div>
   );
 }
