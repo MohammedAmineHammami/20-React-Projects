@@ -20,11 +20,12 @@ import ClickOutSideHook from "./components/ClickOutSideHook/ClickOutSideHook.jsx
 import Resize from "./components/UseResizeHook/Resize.jsx";
 import ScrolleTopBottom from "./components/Scrolle/ScrolleTopBottom.jsx";
 import ScrollToSection from "./components/Scrolle/ScrollToSection.jsx";
+import Weather from "./components/WeatherApp/Weather.jsx";
 
 function App() {
   return (
     <div className="App">
-      {/*  <Accordion /> */}
+      {/* <Accordion /> */}
       {/*  <GenColor /> */}
       {/* <RatingBar /> */}
       {/*   <ImageSlider
@@ -34,19 +35,20 @@ function App() {
       /> */}
       {/*  <LoadMoreBtn /> */}
       {/* <TreeView menu={menus} /> */}
-      {/*  <ReactQrCode /> */}
+
       {/* <Theme /> */}
       {/*  <ScrollIndicator url={"https://dummyjson.com/products"} limit={"100"} /> */}
       {/* <CustomTabs tabs={tabs} /> */}
       {/*  <ModelTest /> */}
       {/*  <GithubProfile /> */}
       {/* <SearchAutoComp url={"https://dummyjson.com/users"} /> */}
-      {/*    <TikTakToy /> */}
+      {/*  <TikTakToy /> */}
       {/*  <UseFetchHook /> */}
       {/*  <ClickOutSideHook /> */}
       {/* <Resize /> */}
       {/*  <ScrolleTopBottom /> */}
-      <ScrollToSection />
+      {/*  <ScrollToSection /> */}
+      <Weather />
     </div>
   );
 }
